@@ -1,0 +1,1 @@
+select * from bikes full outer join riders on bikes.id = riders.bicycle_id

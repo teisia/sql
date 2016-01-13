@@ -1,0 +1,1 @@
+select * from riders join bikes on riders.bicycle_id = bikes.id where riders.bicycle_id is not null 

@@ -1,0 +1,1 @@
+select * from bikes full outer join riders on riders.bicycle_id=bikes.id where riders.bicycle_id is null and bikes.name is not null
